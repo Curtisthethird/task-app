@@ -15,6 +15,6 @@
     font-size: 0.9rem;
     cursor: pointer;
 }
-time.li:hover{
+time.li:hover, .time li.active{
     color: #fff;
 }
