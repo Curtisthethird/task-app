@@ -15,6 +15,20 @@
     font-size: 0.9rem;
     cursor: pointer;
 }
-time.li:hover, .time li.active{
+.time li:hover, .time li.active{
     color: #fff;
+}
+
+@media (max-width: 375px) {
+    .time{
+        width: 100%;
+    }
+    .time li{
+        font-size: 1.1rem;
+    }
+    .tabs{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
 }

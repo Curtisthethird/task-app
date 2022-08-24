@@ -1,9 +1,11 @@
 .userInfo{
     position: absolute;
     height: 70%;
+    width: 100%;
     border-radius: 20px;
     background-color: var(--Blue);
     padding: 25px;
+    color: #fff;
 }
 
 .userInfo img{
@@ -11,17 +13,28 @@
     border: 2px solid #fff;
     border-radius: 50%;
 }
-
 .userInfo h4{
     margin-top: 40px;
     font-size: 0.9rem;
     font-weight: normal;
+    color: var(--Pale-Blue)
+}
+.userInfo h1{
+    font-weight: lighter;
 }
 
-.userInfo h1{
-    font-weight: 100%;
-    width: 20%;
-    border-radius: 20px;
-    position: relative;
-    background-color: var(--Dark-blue);
+@media (max-width: 375px) {
+    .userInfo{
+        display: flex;
+        align-items: center;
+    }
+    .userInfo h4{
+        margin-top: 0;
+    }
+    .userInfo h1{
+        font-size: 24px;
+    }
+    .infoContainer{
+        padding-left: 20px;
+    }
 }
