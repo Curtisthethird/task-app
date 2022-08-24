@@ -3,4 +3,25 @@
     height: 70%;
     border-radius: 20px;
     background-color: var(--Blue);
+    padding: 25px;
+}
+
+.userInfo img{
+    width: 70px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.userInfo h4{
+    margin-top: 40px;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.userInfo h1{
+    font-weight: 100%;
+    width: 20%;
+    border-radius: 20px;
+    position: relative;
+    background-color: var(--Dark-blue);
 }
